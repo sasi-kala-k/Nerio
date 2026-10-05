@@ -1,0 +1,27 @@
+.circle{
+    background-color: #F0EAFC;
+    border-radius: 50%;
+    border:3px solid #E2CCFB;
+    height: 70px;
+    width: 70px;
+
+}
+.nested-circle{
+    background-color: #a855f7;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+
+.p-cus-size{
+    width:75%;
+}
+
+/* from 768px to 1440px*/
+@media(min-width:768px) and (max-width:1440px)
+{
+    .p-cus-size{
+        width:50%;
+    }
+} 

@@ -1,0 +1,22 @@
+.set-cus-bg{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),url('../assets/images/Customers/cus_hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     /* min-height: calc(100vh + 250px);  */
+     /* 140px = your header's approximate total height */
+    min-height: 70vh;
+    width:100%;
+}
+
+.p-cus-size{
+    width:75%;
+}
+
+/* from 768px to 1440px*/
+@media(min-width:768px) and (max-width:1440px)
+{
+    .p-cus-size{
+        width:50%;
+    }
+} 

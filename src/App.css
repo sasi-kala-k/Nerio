@@ -1,0 +1,26 @@
+#root {
+    overflow-x:hidden;
+    
+}
+body {
+    max-width: 100%;
+}
+
+
+.ent-bg
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.8)),url('./assets/images/Enterprise/enterprise_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+ .bg-contactus
+ {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url("./assets/images/ContactUs/bg-contact-us.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+ }
+

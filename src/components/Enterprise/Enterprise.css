@@ -1,0 +1,70 @@
+
+.dotted-line {
+    position: absolute;
+    border-left: 2px dotted rgb(187, 179, 190);
+    left: 50%;
+    /* left-50% from left margin to center */
+    top: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+    /* translateX(-50%); exact center */
+
+}
+@media(max-width:991px){
+    .dotted-line {
+    
+    left: 12.5%;
+    /* left-50% from left margin to center */
+   
+    transform: translateX(0);
+    /* translateX(-50%); exact center */
+
+}
+}
+.circle-img{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border:3px solid blue;
+    background-color: white;
+    position: relative;
+}
+
+.left-no {
+    color: #82b7fc;
+  
+}
+.right-no{
+    color:#a1ecf8;
+}
+.cus-margin{
+
+margin-left:-12px;
+margin-right:-12px;
+}
+
+.bg-industryLeaders
+{
+    background: #F0F3FF;
+
+}
+.bg-ConnectWithExpert
+{
+    background-color: #FAF8FC;
+}
+
+.circle-icon-CWE
+{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+}
+.cus-size-CWE
+{
+font-size: 0.30rem;
+}
+
+.divider{
+    width:100%;
+    border-top: 1px solid rgb(145, 143, 143);
+}

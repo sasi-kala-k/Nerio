@@ -1,0 +1,9 @@
+.cus-GRM-bg{
+    background-image: url('../../assets/images/Customers/Map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    min-height: 100vh;
+    width:100%;
+}

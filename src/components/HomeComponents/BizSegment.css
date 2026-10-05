@@ -1,0 +1,37 @@
+small,p
+{
+    color:gray;
+}
+h6{
+    color:#374151;
+}
+.circle-green
+{
+    background-color: #84cc16;
+}
+
+.circle-red
+{
+    background-color: #EF4444;
+}
+.circle-orange
+{
+    background-color: #F97316;
+}
+.circle-blue
+{
+    background-color: #3B82f6;
+}
+
+.circle-green:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.circle-red:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.circle-orange:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.circle-blue:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}

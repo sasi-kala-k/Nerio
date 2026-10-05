@@ -1,0 +1,13 @@
+.circle-gradient-blue {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #5b8def, #2f5fdc);
+    box-shadow: 0 4px 10px rgba(47, 95, 220, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}

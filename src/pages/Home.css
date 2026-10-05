@@ -1,0 +1,37 @@
+.set-home-bg{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),url('../assets/images/Home/BG.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+    width:100%;
+}
+.signup-btn{
+    background-color: #10B981 !important;
+    /* padding: 10px 24px; */
+     /* font-size: 0.95rem; */
+     /* width:156px;
+     height:60px;*/
+     /* border-radius: 1px; */
+}
+h1.cus-heading{
+    font-size:48px;
+    
+}
+@media (max-width: 992px) {
+ 
+    h1.cus-heading{
+    font-size:38px !important;
+    
+}
+
+}
+.cus-text-size
+{
+    font-size: 0.95rem;
+}
+@media(min-width:992px){
+.cus-text-size{
+    font-size: 1.25rem; /*fs-5*/
+}
+}
